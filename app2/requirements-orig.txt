@@ -1,0 +1,4 @@
+Django
+django-toolbelt
+psycopg2
+psycopg2-binary
