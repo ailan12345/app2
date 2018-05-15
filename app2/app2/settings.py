@@ -119,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 if DEBUG:
     AUTH_USER_MODEL = 'account.User'
 else:
-    AUTH_USER_MODEL = 'user.account.User'
+    AUTH_USER_MODEL = 'USER_URL.account.User'
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
