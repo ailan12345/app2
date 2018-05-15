@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles', 
     'account', 
+    'USER_URL',
 ]
 
 MIDDLEWARE = [
@@ -119,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 if DEBUG:
     AUTH_USER_MODEL = 'account.User'
 else:
-    AUTH_USER_MODEL = dj_database_url.config('USER_URL')#'USER_URL.account.User'
+    AUTH_USER_MODEL = 'USER_URL.account.User'
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
